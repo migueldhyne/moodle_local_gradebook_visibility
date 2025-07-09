@@ -240,9 +240,9 @@ class observer {
      * Recursively sets visibility for a category, its grade items, and subcategories.
      *
      * @param \stdClass $category Grade category object.
-     * @param bool      $visible  True to show, false to hide.
-     * @param string   &$log      Log output, passed by reference.
-     * @param int       $level    Recursion level (for log prefix).
+     * @param bool $visible True to show, false to hide.
+     * @param string &$log Log output, passed by reference.
+     * @param int $level Recursion level (for log prefix). Default is 0.
      * @return void
      */
     private static function set_category_visibility_cascade($category, $visible, &$log, $level = 0) {

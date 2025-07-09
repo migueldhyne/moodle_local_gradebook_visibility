@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <XMLDB PATH="local/gradebook_visibility/db" VERSION="2025062600" COMMENT="Plugin for scheduling grade category visibility">
   <TABLES>
-    <TABLE NAME="local_grcatvis_schedule" COMMENT="Grade Category Visibility Schedules">
+    <TABLE NAME="local_gradebook_visibility_schedule" COMMENT="Grade Category Visibility Schedules">
       <FIELDS>
         <FIELD NAME="id" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="true"/>
         <FIELD NAME="course_shortname" TYPE="char" LENGTH="100" NOTNULL="true"/>
