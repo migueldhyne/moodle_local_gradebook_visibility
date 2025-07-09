@@ -236,7 +236,7 @@ class observer {
         }
     }
 
-/**
+    /**
      * Recursively sets visibility for a category, its grade items, and subcategories.
      *
      * @param \stdClass $category Grade category object.
